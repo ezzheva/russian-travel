@@ -10,11 +10,13 @@
   </head>
   <body class="page">
     <header class="header">
-      <img class="header__logo" src="./images/header-logo.svg" alt="логотип" />
-      <div class="header__lang-links">
-        <p class="header__lang-link">Ru</p>
-        <p class="header__lang-link">En</p>
-      </div>
+      <nav class="menu">
+        <img class="menu__logo" src="./images/header-logo.svg" alt="логотип" />
+      <ul class="lang">
+        <li class="lang__link"><p class="lang__item">Ru</p></li>
+        <li class="lang__link"><p class="lang__item">En</p></li>
+      </ul>
+      </nav>
     </header>
 
     <main class="content">
@@ -132,7 +134,8 @@
       </section>
 
       <section class="places">
-        <div class="place">
+        <ul class="place">
+          <li class="place__item">
           <h2 class="place__title">Куршская коса</h2>
           <img
             class="place__image"
@@ -163,8 +166,8 @@
               прохладного моря.
             </p>
           </div>
-        </div>
-        <div class="place">
+          </li>
+        <li class="place__item">
           <h2 class="place__title">Кольский</h2>
           <img
             class="place__image"
@@ -198,8 +201,8 @@
               начинает сбываться с&nbsp;билетом в&nbsp;Мурманск.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </li>
+        <li class="place__item">
           <h2 class="place__title">Алтай</h2>
           <img
             class="place__image"
@@ -232,8 +235,8 @@
               манулы&nbsp;&mdash; тоже обитатели Алтайского края.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </li>
+        <li class="place__item">
           <h2 class="place__title">Зимний Байкал</h2>
           <img
             class="place__image"
@@ -265,8 +268,8 @@
               197.011&nbsp;км/ч.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </li>
+        <li class="place__item">
           <h2 class="place__title">Карелия</h2>
           <img
             class="place__image"
@@ -294,12 +297,13 @@
               Чтобы все знали, кто тут хозяин.
             </p>
           </div>
-        </div>
+        </li>
+      </li>
       </section>
 
       <section class="cover">
         <a
-          class="cover__link"
+          class="cover__overlay"
           href="https://stampsy.com/na-elektrichkakh-do-baikala"
           target="__blank"
         >
@@ -314,27 +318,17 @@
       </section>
     </main>
     <footer class="footer">
-      <nav class="footer__links">
-        <a class="footer__link" href="https://yandex.ru/maps" target="_blank"
-          >Карты</a
-        >
-        <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank"
-          >Погода</a
-        >
-        <a class="footer__link" href="https://rasp.yandex.ru" target="_blank"
-          >Расписание</a
-        >
-        <a
-          class="footer__link"
-          href="https://calendar.yandex.ru"
-          target="_blank"
-          >Календарь</a
-        >
-        <a class="footer__link" href="https://travel.yandex.ru" target="_blank"
-          >Путешествия</a
-        >
+      <nav class="menu menu__place_footer">
+        <ul class="link">
+          <li><a class="link__item" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+          <li><a class="link__item" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+          <li><a class="link__item" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+          <li><a class="link__item"href="https://calendar.yandex.ru"target="_blank">Календарь</a></li>
+          <li><a class="link__item" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
+        </ul>
+        <p class="menu__coryright">&copy;Езжева Ирина</p>
       </nav>
-      <p class="footer__coryright">&copy;Езжева Ирина</p>
+      
     </footer>
   </body>
 </html>
