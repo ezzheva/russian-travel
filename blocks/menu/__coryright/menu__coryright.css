@@ -1,0 +1,14 @@
+.menu__coryright {
+  margin: 0;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 114%;
+}
+
+@media (min-width:320px) and (max-width:767px) {
+  .menu__coryright {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+  }
+}

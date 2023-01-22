@@ -1,0 +1,7 @@
+@media (min-width:320px) and (max-width:767px) {
+  .menu_place_footer {
+    flex-flow: wrap column;
+    align-items: flex-start;
+    row-gap: 48px;
+  }
+}

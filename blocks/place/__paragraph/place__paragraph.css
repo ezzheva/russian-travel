@@ -1,0 +1,7 @@
+.place__paragraph {
+  margin: 0 0 23px;
+}
+
+.place__paragraph:last-of-type {
+  margin: 0;
+}
