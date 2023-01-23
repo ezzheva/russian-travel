@@ -1,7 +1,7 @@
-/*подключаем стили*/
+
 @import url(../vendor/normalize.css);
-@import url(../fonts/fonts.css);
-/*подключаем блоки*/
+@import url(../vendor/fonts/fonts.css);
+
 @import url(../blocks/page/page.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/menu/menu.css);
