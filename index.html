@@ -8,28 +8,28 @@
   </head>
   <body class="page">
     <header class="header">
-      <nav class="menu menu_place_header">
-        <img class="menu__logo" src="./images/header-logo.svg" alt="логотип">
-        <ul class="lang">
-          <li class="lang__link"><p class="lang__item">Ru</p></li>
-          <li class="lang__link"><p class="lang__item">En</p></li>
+        <img class="header__logo" src="./images/header-logo.svg" alt="логотип">
+        <nav>
+          <ul class="header__lang">
+            <li><a class="header__lang-link header__lang-link_active" href="#" >Ru</a></li>
+            <li><a class="header__lang-link" href="#">En</a></li>
         </ul>
       </nav>
     </header>
 
-    <main class="content">
+     <main class="content">
       <section class="lead">
         <h1 class="lead__title">Путешествия по&nbsp;России</h1>
         <p class="lead__subtitle">
           Настоящая страна не&nbsp;в&nbsp;выпусках новостей, а&nbsp;здесь.
         </p>
-        <div class="lead__image-caption">
+        <figure class="lead__image-caption">
           <img
             class="lead__image"
             src="./images/lead-polka.jpg"
             alt="картинка">
-          <p class="lead__caption">ваша полка&nbsp;&mdash; верхняя</p>
-        </div>
+          <figcaption class="lead__caption">ваша полка&nbsp;&mdash; верхняя</figcaption>
+        </figure>
       </section>
 
       <section class="intro">
@@ -50,24 +50,14 @@
         </p>
         <ul class="intro__list">
           <li>Часовых поясов <span class="intro__list-span">11</span></li>
-          <li>
-            Объектов природного наследия ЮНЕСКО<span class="intro__list-span">
-              12</span
-            >
-          </li>
-          <li>
-            Объектов культурного наследия ЮНЕСКО<span class="intro__list-span">
-              16</span
-            >
-          </li>
-          <li>
-            Природных заповедников <span class="intro__list-span">105</span>
-          </li>
+          <li>Объектов природного наследия ЮНЕСКО<span class="intro__list-span">12</span></li>
+          <li>Объектов культурного наследия ЮНЕСКО<span class="intro__list-span">16</span></li>
+          <li>Природных заповедников <span class="intro__list-span">105</span></li>
           <li>Аэропортов <span class="intro__list-span">241</span></li>
         </ul>
       </section>
 
-      <div class="photo-grid">
+       <section class="photo-grid">
         <img
           class="photo-grid__item"
           src="./images/photo-grid-train.jpg"
@@ -116,7 +106,7 @@
           class="photo-grid__item"
           src="./images/photo-grid-ergaki.jpg"
           alt="картинка">
-      </div>
+      </section>
 
       <section class="places">
         <ul class="place">
@@ -127,7 +117,7 @@
               src="./images/place-kosa.jpg"
               alt="картинка">
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <span class="place__url-heading">url</span>
               <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
             </div>
             <div class="place__text">
@@ -156,7 +146,7 @@
               src="./images/place-kolsky.jpg"
               alt="картинка">
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <span class="place__url-heading">url</span>
               <a
                 class="place__link"
                 href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
@@ -188,7 +178,7 @@
               src="./images/place-altai.jpg"
               alt="картинка">
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <span class="place__url-heading">url</span>
               <a
                 class="place__link"
                 href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ"
@@ -220,7 +210,7 @@
               src="./images/place-winter-baikal.jpg"
               alt="картинка">
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <span class="place__url-heading">url</span>
               <a
                 class="place__link"
                 href="https://vk.com/baikalmile"
@@ -251,7 +241,7 @@
               src="./images/place-karelia.jpg"
               alt="картинка">
             <div class="place__website">
-              <p class="place__url-heading">URL</p>
+              <span class="place__url-heading">url</span>
               <a class="place__link" href="http://vodlozero.ru" target="_blank">http://vodlozero.ru/</a>
             </div>
             <div class="place__text">
@@ -289,36 +279,14 @@
       </section>
     </main>
     <footer class="footer">
-      <nav class="menu menu_place_footer">
-        <ul class="link">
-          <li>
-            <a class="link__item" href="https://yandex.ru/maps" target="_blank"
-              >Карты</a>
-          </li>
-          <li>
-            <a
-              class="link__item"
-              href="https://yandex.ru/pogoda"
-              target="_blank">Погода</a>
-          </li>
-          <li>
-            <a class="link__item" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-          </li>
-          <li>
-            <a
-              class="link__item"
-              href="https://calendar.yandex.ru"
-              target="_blank">Календарь</a>
-          </li>
-          <li>
-            <a
-              class="link__item"
-              href="https://travel.yandex.ru"
-              target="_blank">Путешествия</a>
-          </li>
+        <ul class="footer__link">
+          <li><a class="footer__link-item" href="https://yandex.ru/maps" target="_blank">Карты</a></li>
+          <li><a class="footer__link-item" href="https://yandex.ru/pogoda" target="_blank">Погода</a></li>
+          <li><a class="footer__link-item" href="https://rasp.yandex.ru" target="_blank">Расписание</a></li>
+          <li><a class="footer__link-item" href="https://calendar.yandex.ru" target="_blank">Календарь</a></li>
+          <li><a class="footer__link-item" href="https://travel.yandex.ru" target="_blank">Путешествия</a></li>
         </ul>
-        <p class="menu__coryright">&copy;Езжева Ирина</p>
-      </nav>
+      <p class="footer__coryright">&copy;Езжева Ирина</p>
     </footer>
   </body>
 </html>
