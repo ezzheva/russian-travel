@@ -2,4 +2,19 @@
   margin: 0;
   padding: 0;
   list-style: none;
+  display: grid;
+  justify-items: center;
+  row-gap: 80px;
+}
+
+@media screen and (max-width: 1023) {
+  .place {
+    row-gap: 72px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    row-gap: 50px;
+  }
 }
