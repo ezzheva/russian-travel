@@ -3,13 +3,12 @@
   padding: 0;
   list-style: none;
   display: grid;
-  justify-items: center;
   row-gap: 80px;
 }
 
-@media screen and (max-width: 1023) {
+@media screen and (max-width: 1023px) {
   .place {
-    row-gap: 72px;
+    row-gap: 73px;
   }
 }
 

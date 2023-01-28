@@ -1,29 +1,31 @@
 .header {
+  margin: 28px auto 56px;
   max-width: 1184px;
-  margin: 28px 48px 55px;
   display: flex;
   justify-content: space-between;
-  align-items: flex-end;
 }
-
 @media screen and (max-width: 1279px) {
   .header {
     max-width: 928px;
     margin-bottom: 48px;
   }
 }
-
-@media screen and (max-width: 810px) {
+@media screen and (max-width: 1023px) {
   .header {
-   max-width: 720px;
-   margin-left: 24px;
-   margin-right: 24px;
+    max-width: 720px;
   }
 }
-  
-@media screen and (max-width: 400px) {
+
+@media screen and (max-width: 767px) {
+  .header {
+    max-width: 550px;
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 600px) {
   .header {
     max-width: 288px;
-    margin: 16px 16px 48px;
+    margin-top: 16px;
   }
 }
