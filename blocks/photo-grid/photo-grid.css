@@ -5,18 +5,21 @@
   gap: 16px;
   margin: 0 auto;
 }
+
 @media screen and (max-width: 1279px) {
   .photo-grid {
     max-width: 928px;
     gap: 14px;
   }
 }
+
 @media screen and (max-width: 1023px) {
   .photo-grid {
     max-width: 720px;
     gap: 16px;
   }
 }
+
 @media screen and (max-width: 767px) {
   .photo-grid {
     max-width: 500px;
