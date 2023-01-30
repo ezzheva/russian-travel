@@ -20,14 +20,13 @@
   .place__item {
     grid-template-columns: minmax(340px, 1fr) minmax(352px, 1fr);
     column-gap: 28px;
-    row-gap: 48px;
     margin-bottom: 73px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .place__item {
-    max-width: 320px;
+    max-width: 100%;
     grid-template-columns: 1fr;
     grid-template-areas: 
       "title"

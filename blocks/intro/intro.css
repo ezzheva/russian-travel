@@ -1,30 +1,24 @@
 .intro {
-  max-width: 690px;
-  margin-bottom: 92px;
-  margin-right: 442px;
-  margin-left: 135px;
+  max-width: 984px;
+  margin: 0 auto 92px;
 }
 
 @media screen and (max-width: 1279px) {
   .intro {
-    margin-right: 284px;
-    margin-left: 38px;
+    max-width: 90.63%;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .intro {
-    max-width: 720px;
-    margin-left: 24px;
-    margin-right: 24px;
+    max-width: 93.75%;
+    margin-bottom: 88px;
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 767px) {
   .intro {
-    max-width: 288px;
-    margin-left: 16px;
-    margin-right: 16px;
+    max-width: 90%;
     margin-bottom: 64px;
   }
 }
