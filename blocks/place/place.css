@@ -2,18 +2,4 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  display: grid;
-  row-gap: 80px;
-}
-
-@media screen and (max-width: 1023px) {
-  .place {
-    row-gap: 73px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .place {
-    row-gap: 50px;
-  }
 }
