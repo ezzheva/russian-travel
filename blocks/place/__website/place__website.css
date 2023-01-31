@@ -4,15 +4,3 @@
   grid-area: web;
   row-gap: 12px;
 }
-
-@media screen and (max-width: 1023px) {
-  .place__website {
-    max-width: 352px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .place__website {
-    max-width: 288px;
-  }
-}
